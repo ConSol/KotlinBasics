@@ -8,7 +8,7 @@ import com.consol.kotlin.Dog
  */
 
 
-class SuperDog(val owner: Owner = Owner("First", "ConSoli"), name: String, type: String, age: Int = 1000) : Dog(name, type, age) {
+class SuperDogKotlin(val owner: Owner = Owner("First", "ConSoli"), name: String, type: String, age: Int = 1000) : Dog(name, type, age) {
 
     override fun sayHello(): String {
         return "Hey my name is $name! My ${getOwner()}"

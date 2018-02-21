@@ -12,6 +12,7 @@
 
     <modules>
         <module>exercises</module>
+        <module>exercises-java</module>
         <module>quickstart.maven/project</module>
     </modules>
 </project>

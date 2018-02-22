@@ -2,6 +2,9 @@ package com.consol.kotlin.java;
 
 import com.consol.kotlin.Dog;
 import com.consol.kotlin.model.Owner;
+import org.jetbrains.annotations.NotNull;
+
+import static com.consol.kotlin.DogKt.hello;
 
 public class SuperDogJava extends Dog {
     private final Owner owner;
@@ -11,11 +14,14 @@ public class SuperDogJava extends Dog {
         this.owner = owner;
     }
 
-    public String sayHallo(){
+    @NotNull
+    @Override
+    public String sayHello() {
+        hello("asdf");
         return "Hey my name is " + getName() + "! My " + getOwner();
     }
 
     public String getOwner() {
-        return "Owner: " + owner.getFirstName()  + " " + owner.getLastName();
+        return "Owner: " + owner.getFirstName() + " " + owner.getLastName();
     }
 }

@@ -13,3 +13,5 @@ open class Dog(var name: String, val type: String = "Labrador", var age: Int = 5
         return "Hey my name is $name"
     }
 }
+
+fun String.hello() = this.toUpperCase()

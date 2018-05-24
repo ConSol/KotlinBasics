@@ -13,4 +13,4 @@ For a sneak peek on the language, you can try the [online playground](https://tr
 
 In case the online playground got you curious, Kotlin is available for installation on all major operating systems.
 
-The currently latest stable release is v1.2.21, which is [available on GitHub](https://github.com/JetBrains/kotlin/releases/tag/v1.2.21).
+The currently latest stable release is v1.2.41, which is [available on GitHub](https://github.com/JetBrains/kotlin/releases/tag/v1.2.41).

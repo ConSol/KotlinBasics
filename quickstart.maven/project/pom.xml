@@ -9,7 +9,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <kotlin.version>1.2.21</kotlin.version>
+        <kotlin.version>1.2.41</kotlin.version>
         <junit.version>4.12</junit.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
         <main.class>AppKt</main.class>

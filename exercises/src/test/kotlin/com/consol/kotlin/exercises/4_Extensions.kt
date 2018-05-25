@@ -1,14 +1,9 @@
 package com.consol.kotlin.exercises
 
-import com.consol.kotlin.barkify
 import org.junit.Assert.assertEquals
 import org.junit.Ignore
 import org.junit.Test
 
-
-/**
- * Created by Malte Bucksch on 06/11/2017.
- */
 @Ignore //TODO REMOVE!
 class ExtensionsTest {
     // TODO TASK 1 create extension function "scream" for String

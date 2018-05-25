@@ -5,9 +5,6 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 
-/**
- * Created by Malte Bucksch on 06/11/2017.
- */
 class ExtensionsTest {
     // TODO TASK 1 create extension function "scream" for String
     // TODO TASK 1 turn all letters UPPERCASE and add "!!!" at the end

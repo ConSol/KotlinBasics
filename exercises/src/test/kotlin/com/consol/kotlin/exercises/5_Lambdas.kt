@@ -6,9 +6,7 @@ import org.junit.Assert.assertTrue
 import org.junit.Ignore
 import org.junit.Test
 
-/**
- * Created by Malte Bucksch on 06/11/2017.
- */
+
 @Ignore //TODO REMOVE!
 class LambdasTest {
     private val dogs = listOf(Dog("Bruno", age = 4), Dog("Daisy", age = 12), Dog("Rex", age = 7))

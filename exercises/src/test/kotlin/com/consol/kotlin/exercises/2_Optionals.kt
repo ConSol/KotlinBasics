@@ -5,9 +5,6 @@ import org.junit.Assert.assertEquals
 import org.junit.Ignore
 import org.junit.Test
 
-/**
- * Created by Malte Bucksch on 05/11/2017.
- */
 @Ignore //TODO REMOVE!
 class OptionalTest {
 

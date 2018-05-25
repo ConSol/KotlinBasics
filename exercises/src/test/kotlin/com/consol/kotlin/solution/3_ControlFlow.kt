@@ -4,9 +4,6 @@ import com.consol.kotlin.Dog
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-/**
- * Created by Malte Bucksch on 05/11/2017.
- */
 class ControlFlowTest {
     //  TODO TASK 1 use the when operator on the "dog.name":
     //  TODO -> if the name is "Bruno", return the owner name "Hans"

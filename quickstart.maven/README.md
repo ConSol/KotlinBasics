@@ -104,4 +104,8 @@ A possible configuration in projects which mix Java and Kotlin code is shown in 
 </build>
 ```
 
-One thing to remeber is that in mixed code projects the Kotlin compiler plugin should be run before the Java Maven compiler plugin.
+One thing to remember is that in mixed code projects the Kotlin compiler plugin should be run before the Java Maven compiler plugin.
+
+## Kotlin Incremental compilation
+
+To speedup your compile time you can set the following property in maven (since version `1.1.2`), which enables [incremental compilation](http://kotlinlang.org/docs/reference/using-maven.html#incremental-compilation).

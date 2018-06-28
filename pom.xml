@@ -7,7 +7,7 @@
 
     <groupId>com.consol.kotlin</groupId>
     <artifactId>kotlin-examples</artifactId>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>

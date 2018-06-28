@@ -1,0 +1,5 @@
+pipeline:
+  build:
+    image: maven:latest
+    commands:
+      - mvn clean verify

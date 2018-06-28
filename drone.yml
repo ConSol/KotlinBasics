@@ -1,3 +1,4 @@
+# Execute tests via Maven
 pipeline:
   build:
     image: maven:latest
